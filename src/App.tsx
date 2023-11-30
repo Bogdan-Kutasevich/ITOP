@@ -46,12 +46,12 @@ export const App = () => {
 
     if (isInput1) {
       setAmount1(value);
-      setAmount2((value * currency2.rate) / currency1.rate);
+      setAmount2((value * currency1.rate) / currency2.rate);
       return;
     }
 
     setAmount2(value);
-    setAmount1((value * currency1.rate) / currency2.rate || 0);
+    setAmount1((value * currency2.rate) / currency1.rate || 0);
   };
 
   const handleCurrencyChange = (
