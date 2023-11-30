@@ -19,7 +19,7 @@ export const Header = ({ currencies }: Props) => {
         </div>
         <div className="flex flex-wrap flex-row flex-end">
           {checkedCurrencies.map((currency) => (
-            <div className="mr-5 font-medium">
+            <div className="mr-5 font-medium" key={currency.r030}>
               {currency.cc}
               :
               {' '}
