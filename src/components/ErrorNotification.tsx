@@ -1,3 +1,5 @@
+import React from 'react';
+
 type Props = {
   handleSetError: (isErrorDisplay: boolean) => void;
 };

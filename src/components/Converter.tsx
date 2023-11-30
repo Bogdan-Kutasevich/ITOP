@@ -1,4 +1,5 @@
 import { Currency } from 'types/Currency';
+import React from 'react';
 
 type Props = {
   currencies: Currency[];
